@@ -1,3 +1,31 @@
+# Restaurant menu app (Docker)
+
+A digital menu for a restaurant: a small Express API that serves `data/menu.json`, and a single-page menu UI in `public/` with search, dietary filters and dish details.
+
+## Run it
+
+```bash
+docker compose up -d --build     # menu on http://localhost:3000
+docker compose down
+```
+
+The Compose service mounts the repository, installs dependencies from `package-lock.json` on startup and runs `nodemon`, so edits to `src/`, `public/` or `data/menu.json` show up without a rebuild (refresh the browser for static files; the API re-reads the menu on every request).
+
+For a plain container build instead of Compose:
+
+```bash
+docker build -t restaurant-menu . && docker run --rm -p 3000:3000 restaurant-menu
+```
+
+## Layout
+
+- `data/menu.json` — restaurant details, categories, dishes, prices, dietary tags (`v`, `vg`, `gf`, `spicy`) and the currency used to format prices.
+- `src/server.js` — `GET /api/menu`, `GET /api/health`, static files from `public/`, 404s.
+- `public/` — `index.html`, `styles.css`, `app.js` (no build step, no framework).
+- `Dockerfile` / `docker-compose.yml` — production image and the development stack.
+
+---
+
 # Meridian Invoice Pre-Check Agent
 
 An AI-powered n8n workflow that automatically reads incoming contractor/vendor invoices, classifies every line item, matches it against a project's budget, flags anything that would go over budget, and updates the tracker — before a human approves payment.

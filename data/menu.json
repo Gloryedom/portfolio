@@ -1,0 +1,273 @@
+{
+  "restaurant": {
+    "name": "Olive & Ember",
+    "tagline": "Wood-fired Mediterranean cooking, a short walk from the water.",
+    "address": "14 Adeola Odeku Street, Victoria Island, Lagos",
+    "phone": "+234 801 234 5678",
+    "hours": "Every day · 12:00 – 23:00",
+    "kitchenNote": "Kitchen takes its last order at 22:30",
+    "serviceNote": "A 7.5% service charge applies to tables of six or more.",
+    "allergenNote": "Please tell your server about any allergies — our kitchen handles nuts, gluten, shellfish and dairy."
+  },
+  "currency": {
+    "code": "NGN",
+    "locale": "en-NG",
+    "symbol": "₦"
+  },
+  "dietLabels": {
+    "v": "Vegetarian",
+    "vg": "Vegan",
+    "gf": "Gluten-free",
+    "spicy": "Spicy"
+  },
+  "categories": [
+    {
+      "id": "starters",
+      "name": "Starters",
+      "blurb": "Small plates built for sharing around the table."
+    },
+    {
+      "id": "grill",
+      "name": "From the Grill",
+      "blurb": "Cooked over charcoal and olive wood embers."
+    },
+    {
+      "id": "pasta-rice",
+      "name": "Pasta & Rice",
+      "blurb": "Made to order, one pan at a time."
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "blurb": "Finished in house every afternoon."
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "blurb": "Coolers, coffee and a short list of wine."
+    }
+  ],
+  "items": [
+    {
+      "id": "flatbread-feta",
+      "category": "starters",
+      "name": "Charred Flatbread & Whipped Feta",
+      "description": "Wood-fired flatbread, whipped feta, honey, Aleppo pepper, olive oil.",
+      "price": 6500,
+      "tags": ["v"],
+      "featured": true
+    },
+    {
+      "id": "suya-calamari",
+      "category": "starters",
+      "name": "Suya-Spiced Calamari",
+      "description": "Grilled squid, yaji spice, lime aioli, pickled red onion.",
+      "price": 8500,
+      "tags": ["gf", "spicy"]
+    },
+    {
+      "id": "tomato-burrata",
+      "category": "starters",
+      "name": "Heirloom Tomato & Burrata",
+      "description": "Sun-ripened tomatoes, burrata, basil oil, aged balsamic, sourdough crumb.",
+      "price": 9000,
+      "tags": ["v"]
+    },
+    {
+      "id": "hummus",
+      "category": "starters",
+      "name": "Roasted Pepper Hummus",
+      "description": "Chickpea purée, smoked red pepper, tahini, olive oil, warm pita.",
+      "price": 5500,
+      "tags": ["vg"]
+    },
+    {
+      "id": "prawns-pil-pil",
+      "category": "starters",
+      "name": "Grilled Prawns Pil Pil",
+      "description": "Tiger prawns, garlic, chilli, parsley, lemon butter.",
+      "price": 11000,
+      "tags": ["gf", "spicy"]
+    },
+    {
+      "id": "ember-chicken",
+      "category": "grill",
+      "name": "Ember-Roasted Chicken",
+      "description": "Half chicken, charred lemon, rosemary jus, grilled vegetables.",
+      "price": 18500,
+      "tags": ["gf"]
+    },
+    {
+      "id": "lamb-chops",
+      "category": "grill",
+      "name": "Lamb Chops & Herb Salsa",
+      "description": "Charcoal-grilled lamb chops, mint chermoula, roasted sweet potato.",
+      "price": 28000,
+      "tags": ["gf"],
+      "featured": true
+    },
+    {
+      "id": "croaker",
+      "category": "grill",
+      "name": "Whole Grilled Croaker",
+      "description": "Market fish, scotch bonnet butter, charred lime, coconut rice.",
+      "price": 24000,
+      "tags": ["gf", "spicy"]
+    },
+    {
+      "id": "ribeye",
+      "category": "grill",
+      "name": "Ribeye, Bone Marrow Butter",
+      "description": "Dry-aged ribeye, bone marrow butter, watercress, burnt shallot.",
+      "price": 32000,
+      "tags": ["gf"]
+    },
+    {
+      "id": "halloumi-skewers",
+      "category": "grill",
+      "name": "Halloumi & Vegetable Skewers",
+      "description": "Grilled halloumi, courgette, peppers, oregano, lemon yoghurt.",
+      "price": 14500,
+      "tags": ["v", "gf"]
+    },
+    {
+      "id": "pasta-norma",
+      "category": "pasta-rice",
+      "name": "Pasta alla Norma",
+      "description": "Rigatoni, aubergine, tomato, ricotta salata, basil.",
+      "price": 15000,
+      "tags": ["v"],
+      "featured": true
+    },
+    {
+      "id": "prawn-linguine",
+      "category": "pasta-rice",
+      "name": "Prawn Linguine",
+      "description": "Linguine, tiger prawns, garlic, cherry tomato, chilli, white wine.",
+      "price": 19500,
+      "tags": ["spicy"]
+    },
+    {
+      "id": "mushroom-risotto",
+      "category": "pasta-rice",
+      "name": "Mushroom & Truffle Risotto",
+      "description": "Arborio rice, wild mushrooms, truffle oil, parmesan, chives.",
+      "price": 17500,
+      "tags": ["v", "gf"]
+    },
+    {
+      "id": "jollof-risotto",
+      "category": "pasta-rice",
+      "name": "Jollof Risotto, Grilled Chicken",
+      "description": "Smoky jollof-spiced risotto, grilled chicken thigh, fried plantain.",
+      "price": 18000,
+      "tags": ["gf"]
+    },
+    {
+      "id": "seafood-fried-rice",
+      "category": "pasta-rice",
+      "name": "Seafood Fried Rice",
+      "description": "Wok-tossed rice, prawns, calamari, spring onion, sesame.",
+      "price": 17000,
+      "tags": ["spicy"]
+    },
+    {
+      "id": "tagliatelle-bolognese",
+      "category": "pasta-rice",
+      "name": "Tagliatelle Bolognese",
+      "description": "Slow-cooked beef ragù, parmesan, fresh tagliatelle, basil.",
+      "price": 16500,
+      "tags": []
+    },
+    {
+      "id": "chocolate-cake",
+      "category": "desserts",
+      "name": "Dark Chocolate & Olive Oil Cake",
+      "description": "Flourless chocolate cake, olive oil, sea salt, crème fraîche.",
+      "price": 6500,
+      "tags": ["v", "gf"],
+      "featured": true
+    },
+    {
+      "id": "panna-cotta",
+      "category": "desserts",
+      "name": "Coconut & Mango Panna Cotta",
+      "description": "Coconut cream panna cotta, mango, lime, toasted coconut.",
+      "price": 6000,
+      "tags": ["v", "gf"]
+    },
+    {
+      "id": "baklava-cheesecake",
+      "category": "desserts",
+      "name": "Baklava Cheesecake",
+      "description": "Vanilla cheesecake, pistachio baklava crust, honey syrup.",
+      "price": 7500,
+      "tags": ["v"]
+    },
+    {
+      "id": "fruit-sorbet",
+      "category": "desserts",
+      "name": "Seasonal Fruit & Sorbet",
+      "description": "Market fruit, house sorbet, mint, lime zest.",
+      "price": 5500,
+      "tags": ["vg", "gf"]
+    },
+    {
+      "id": "hibiscus-cooler",
+      "category": "drinks",
+      "name": "Hibiscus & Ginger Cooler",
+      "description": "Zobo, fresh ginger, lime, sparkling water, cane sugar.",
+      "price": 3500,
+      "tags": ["vg", "gf"],
+      "featured": true
+    },
+    {
+      "id": "chapman",
+      "category": "drinks",
+      "name": "Chapman Royale",
+      "description": "Blackcurrant, citrus, bitters, cucumber, sparkling water.",
+      "price": 4000,
+      "tags": ["vg", "gf"]
+    },
+    {
+      "id": "tamarind",
+      "category": "drinks",
+      "name": "Fresh Tamarind Juice",
+      "description": "Tamarind, ginger, a touch of honey, over crushed ice.",
+      "price": 3000,
+      "tags": ["vg", "gf"]
+    },
+    {
+      "id": "palm-wine-spritz",
+      "category": "drinks",
+      "name": "Palm Wine Spritz",
+      "description": "Fresh palm wine, grapefruit, mint, soda.",
+      "price": 5500,
+      "tags": ["vg", "gf"]
+    },
+    {
+      "id": "house-wine",
+      "category": "drinks",
+      "name": "House Red or White",
+      "description": "By the glass — ask your server for today's pour.",
+      "price": 7000,
+      "tags": ["gf"]
+    },
+    {
+      "id": "coffee",
+      "category": "drinks",
+      "name": "Espresso or Cappuccino",
+      "description": "Single-origin beans, roasted weekly in Lagos.",
+      "price": 2500,
+      "tags": ["v", "gf"]
+    },
+    {
+      "id": "water",
+      "category": "drinks",
+      "name": "Still or Sparkling Water",
+      "description": "Chilled bottle, served with lime on request.",
+      "price": 1500,
+      "tags": ["vg", "gf"]
+    }
+  ]
+}
